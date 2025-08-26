@@ -26,7 +26,9 @@ graph TD
     
     %% Advanced Methods
     C8[Chapter 8: Bayesian Computation]
-    C9[Chapter 9: Machine Learning]
+    C9[Chapter 9: Classical ML]
+    C9A[Chapter 9A: Deep Learning]
+    C9B[Chapter 9B: Probabilistic ML]
     C10[Chapter 10: Advanced Topics]
     
     %% Applications & Theory
@@ -62,7 +64,14 @@ graph TD
     
     C9 --> C3
     C9 --> C2
-    %% ML needs basic time series concepts and probability
+    %% Classical ML needs basic time series concepts and probability
+    
+    C9A --> C9
+    %% Deep learning builds on classical ML concepts
+    
+    C9B --> C2
+    C9B --> C8
+    %% Probabilistic ML needs probability and Bayesian computation
     
     C10 --> C4
     C10 --> C5
@@ -75,7 +84,7 @@ graph TD
     
     C12 --> C4
     C12 --> C9
-    %% Forecasting uses classical and ML methods
+    %% Forecasting uses classical methods and ML
     
     C13 --> C1
     %% Applications just needs basic understanding
@@ -95,8 +104,17 @@ graph TD
     C9 -.-> C6
     %% ML can use spectral features
     
+    C9A -.-> C9
+    %% Deep learning may reference classical ML
+    
+    C12 -.-> C9A
+    %% Forecasting may use deep learning
+    
     C11 -.-> C7
     %% Causality in nonlinear systems
+    
+    C11 -.-> C9B
+    %% Causality may use graphical models
     
     C12 -.-> C8
     %% Bayesian forecasting
@@ -113,7 +131,9 @@ graph TD
 - Chapter 6: 4,295 words (~5,700 tokens)
 - Chapter 7: 5,833 words (~7,800 tokens)
 - Chapter 8: 3,797 words (~5,100 tokens)
-- Chapter 9: 10,950 words (~14,600 tokens)
+- Chapter 9: 4,996 words (~6,600 tokens)
+- Chapter 9A: 3,298 words (~4,400 tokens)
+- Chapter 9B: 2,656 words (~3,500 tokens)
 - Chapter 10: 7,641 words (~10,200 tokens)
 - Chapter 11: 5,923 words (~7,900 tokens)
 - Chapter 12: 7,066 words (~9,400 tokens)
@@ -125,8 +145,8 @@ graph TD
 
 **Working on Chapter 12 (Forecasting):**
 - Load: Chapters 1, 2, 3, 4, 9, 12
-- Tokens: ~52,000
-- Optional: Chapter 8 (for Bayesian forecasting sections)
+- Tokens: ~39,000
+- Optional: Chapter 9A (deep learning), Chapter 8 (Bayesian forecasting)
 
 **Working on Chapter 15 (Future Directions):**
 - Load: Chapters 1, 15

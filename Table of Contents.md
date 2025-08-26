@@ -52,15 +52,19 @@
 8.3 Variational Inference for Time Series Models
 8.4 Approximate Bayesian Computation in Time Series Analysis
 
-## Chapter 9: Machine Learning Approaches to Time Series
+## Chapter 9: Classical Machine Learning for Time Series
 9.1 Feature Engineering for Time Series
 9.2 Kernel Methods for Time Series
 9.3 Decision Trees and Random Forests for Time Series
 9.4 Support Vector Machines for Time Series
-9.5 Deep Learning for Time Series: CNNs, RNNs, and LSTMs
-9.6 Attention Mechanisms and Transformers for Time Series
-9.7 Gaussian Processes for Time Series
-9.8 Probabilistic Graphical Models for Time Series
+
+## Chapter 9A: Deep Learning for Time Series
+9A.1 Deep Learning Fundamentals: CNNs, RNNs, and LSTMs
+9A.2 Attention Mechanisms and Transformers for Time Series
+
+## Chapter 9B: Probabilistic Machine Learning for Time Series
+9B.1 Gaussian Processes for Time Series
+9B.2 Probabilistic Graphical Models for Time Series
 
 ## Chapter 10: Advanced Topics in Time Series Analysis
 10.1 Long Memory Processes and Fractional Differencing
