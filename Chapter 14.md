@@ -892,3 +892,4 @@ As you apply these best practices in your own work, remember that they are not r
 
 In the next and final section of this chapter, we'll look to the future, exploring emerging trends and open problems in time series analysis. We'll see how the foundations we've laid throughout this book are opening up new frontiers of research and application in this ever-evolving field.
 
+

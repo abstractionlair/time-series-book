@@ -1264,3 +1264,4 @@ And Feynman? He'd probably encourage us to never lose our sense of wonder at the
 As you apply these techniques in your own work, remember that time series analysis in industry is not just about optimizing processes or predicting failures. It's about developing a deep, quantitative understanding of the systems that drive our modern world. Use these tools thoughtfully and creatively, always striving to see the bigger picture behind the data.
 
 In the next chapter, we'll explore how the time series techniques we've discussed throughout this book can be implemented efficiently at scale, tackling the computational challenges that arise when dealing with the massive datasets common in modern industrial and engineering applications.
+
